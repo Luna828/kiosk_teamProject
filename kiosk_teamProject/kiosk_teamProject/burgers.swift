@@ -1,10 +1,8 @@
 import Foundation
 
 struct Burgers {
-    
-    let cart = Cart()
-    
-    let menuList: [Goods] = [
+        
+    let menuList = [
         Goods(name: "ShackBurger", price: 6.9, content: "토마토, 양상추, 쉑소스가 토핑된 치즈버거"),
         Goods(name: "SmokeShack", price: 8.9, content: "베이컨, 체리 페퍼에 쉑소스가 토핑된 치즈버거"),
         Goods(name: "Shroom Burger", price: 9.4, content: "몬스터 치즈와 체다 치즈로 속을 채운 베지테리안 버거"),
@@ -21,8 +19,8 @@ struct Burgers {
         }
         print("0. 뒤로가기")
         print("---------------------------------------------------")
-        
-        while true {
+        var Running = true
+        while Running {
             guard let numStr = readLine(),
                   let num = Int(numStr) else {
                 print("번호를 잘못 입력하셨습니다")
@@ -32,15 +30,13 @@ struct Burgers {
             switch num {
             case 1...menuList.count:
                 let selectedItem = menuList[num - 1]
-                cart.addItem(selectedItem)
-                print("\(selectedItem.name)를 장바구니에 추가했습니다.")
-                cart.showCart()
+                addItem(selectedItem)
+                Running = false
             case 0 :
                 print("뒤로가기")
-                Kiosk().shakeShack()
+                Running = false
             default:
                 print("다시 선택해주세요")
-                continue
             }
         }
     }

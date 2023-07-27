@@ -39,7 +39,6 @@ struct Drinks {
                 print("")
             case 0 :
                 print("뒤로가기")
-                Kiosk().shakeShack()
             default:
                 print("다시 선택해주세요")
                 continue
