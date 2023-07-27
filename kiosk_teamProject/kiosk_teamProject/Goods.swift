@@ -1,6 +1,6 @@
 import Foundation
 
-class ShackBurger: Menu {
+class Goods: Menu {
     let price: Double
     
     init(name: String, price: Double, content: String) {
