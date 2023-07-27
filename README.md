@@ -88,6 +88,9 @@
 
 ### Project
 
+콘솔창을 이용하여 키오스크 프로그램 구현하기
+
+
 <img width="924" alt="스크린샷 2023-07-27 오후 9 07 11" src="https://github.com/Luna828/kiosk_teamProject/assets/132072642/5c213692-3dc3-4693-a9dd-2359fd9b86e2">
 
 
