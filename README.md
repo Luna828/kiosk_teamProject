@@ -3,7 +3,6 @@
 
 ### Team Members
 
-### Team Members
 <table>
   <tbody>
     <tr>
