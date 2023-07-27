@@ -10,7 +10,8 @@
 
 ### Project
 
-<img width="920" alt="스크린샷 2023-07-27 오후 7 41 34" src="https://github.com/Luna828/kiosk_teamProject/assets/132072642/62be0273-e9fa-421d-ac6f-42c3ed3fe0f7">
+<img width="915" alt="스크린샷 2023-07-27 오후 8 04 16" src="https://github.com/Luna828/kiosk_teamProject/assets/132072642/411c58b9-d8e1-41c6-9c8e-d13296cda127">
+
 
 
 LV0 상세기능 정하기
