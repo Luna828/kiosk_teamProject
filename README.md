@@ -8,6 +8,9 @@
 
 
 LV0 상세기능 정하기
+
+<img width="916" alt="스크린샷 2023-07-27 오후 7 47 39" src="https://github.com/Luna828/kiosk_teamProject/assets/132072642/c77edb55-8d4e-48a5-8ac8-3dc69e0d339d">
+
 1. 메인메뉴판 화면
 2. 메뉴선택 → 항목별 메뉴 
 3. 상세 메뉴 리스트 → switch문으로 상세 메뉴들의 종류대로
