@@ -1,18 +1,21 @@
 # kiosk_teamProject
 본캠프 3주차 문법기초단련을 위한 팀프로젝트
 
+# Team Members
 <16조>
 
 팀장 : 김은경
 팀원 : 강지훈. 이시영, 이애라, 장가겸
 
 
+# Project
 
+<img width="920" alt="스크린샷 2023-07-27 오후 7 41 34" src="https://github.com/Luna828/kiosk_teamProject/assets/132072642/62be0273-e9fa-421d-ac6f-42c3ed3fe0f7">
 
 
 LV0 상세기능 정하기
 
-<img width="913" alt="스크린샷 2023-07-27 오후 7 47 39" src="https://github.com/Luna828/kiosk_teamProject/assets/132072642/7c8cc631-4416-4188-b861-0220edce7b29">
+
 
 1. 메인메뉴판 화면
 2. 메뉴선택 → 항목별 메뉴 
