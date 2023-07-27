@@ -19,7 +19,7 @@
         </a>
         <br />
         <sub>
-            <b>Flutter Developer</b>
+            <b>Swift Developer</b>
         </sub>
         <br />
      </td>
@@ -33,7 +33,7 @@
        </a>
        <br />
        <sub>
-           <b>Flutter Developer</b>
+           <b>Swift Developer</b>
        </sub>
        <br />
      </td>
@@ -47,7 +47,7 @@
        </a>
        <br />
        <sub>
-           <b>Flutter Developer</b>
+           <b>Swift Developer</b>
        </sub>
        <br />
     </td>
@@ -61,7 +61,7 @@
        </a>
        <br />
        <sub>
-           <b>Flutter Developer</b>
+           <b>Swift Developer</b>
        </sub>
        <br />
     </td>
@@ -75,7 +75,7 @@
        </a>
        <br />
        <sub>
-           <b>Flutter Developer</b>
+           <b>Swift Developer</b>
        </sub>
        <br />
     </td>
