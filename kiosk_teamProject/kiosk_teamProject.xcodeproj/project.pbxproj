@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		FB01E4E92A6E0DE4002956FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01E4E82A6E0DE4002956FD /* main.swift */; };
 		FB01E4F02A6E4E3A002956FD /* burgers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01E4EF2A6E4E3A002956FD /* burgers.swift */; };
-		FB01E4F22A6E520C002956FD /* ShackBurger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01E4F12A6E520C002956FD /* ShackBurger.swift */; };
+		FB01E4F22A6E520C002956FD /* Goods.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01E4F12A6E520C002956FD /* Goods.swift */; };
 		FB01E4F52A6E5559002956FD /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01E4F42A6E5559002956FD /* Menu.swift */; };
-		FBC41BFA2A6F726D0076FAD3 /* Frozen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC41BF92A6F726D0076FAD3 /* Frozen.swift */; };
-		FBC41BFC2A6F73800076FAD3 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC41BFB2A6F73800076FAD3 /* Drink.swift */; };
-		FBC41BFE2A6F738A0076FAD3 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC41BFD2A6F738A0076FAD3 /* Beer.swift */; };
-		FBC41C002A6F74780076FAD3 /* Frozens.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC41BFF2A6F74780076FAD3 /* Frozens.swift */; };
-		FBC41C022A6F77570076FAD3 /* drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC41C012A6F77570076FAD3 /* drinks.swift */; };
-		FBC41C042A6F7BC30076FAD3 /* beers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC41C032A6F7BC30076FAD3 /* beers.swift */; };
+		FB463C432A71F7CA00627D09 /* drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB463C402A71F7CA00627D09 /* drinks.swift */; };
+		FB463C442A71F7CA00627D09 /* beers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB463C412A71F7CA00627D09 /* beers.swift */; };
+		FB463C452A71F7CA00627D09 /* Frozens.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB463C422A71F7CA00627D09 /* Frozens.swift */; };
+		FB463C472A71F99500627D09 /* cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB463C462A71F99500627D09 /* cart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,14 +33,12 @@
 		FB01E4E52A6E0DE4002956FD /* kiosk_teamProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kiosk_teamProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB01E4E82A6E0DE4002956FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FB01E4EF2A6E4E3A002956FD /* burgers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burgers.swift; sourceTree = "<group>"; };
-		FB01E4F12A6E520C002956FD /* ShackBurger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShackBurger.swift; sourceTree = "<group>"; };
+		FB01E4F12A6E520C002956FD /* Goods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goods.swift; sourceTree = "<group>"; };
 		FB01E4F42A6E5559002956FD /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
-		FBC41BF92A6F726D0076FAD3 /* Frozen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frozen.swift; sourceTree = "<group>"; };
-		FBC41BFB2A6F73800076FAD3 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
-		FBC41BFD2A6F738A0076FAD3 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
-		FBC41BFF2A6F74780076FAD3 /* Frozens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frozens.swift; sourceTree = "<group>"; };
-		FBC41C012A6F77570076FAD3 /* drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinks.swift; sourceTree = "<group>"; };
-		FBC41C032A6F7BC30076FAD3 /* beers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beers.swift; sourceTree = "<group>"; };
+		FB463C402A71F7CA00627D09 /* drinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drinks.swift; sourceTree = "<group>"; };
+		FB463C412A71F7CA00627D09 /* beers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = beers.swift; sourceTree = "<group>"; };
+		FB463C422A71F7CA00627D09 /* Frozens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frozens.swift; sourceTree = "<group>"; };
+		FB463C462A71F99500627D09 /* cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +74,10 @@
 				FB01E4F32A6E527F002956FD /* model */,
 				FB01E4E82A6E0DE4002956FD /* main.swift */,
 				FB01E4EF2A6E4E3A002956FD /* burgers.swift */,
-				FBC41BFF2A6F74780076FAD3 /* Frozens.swift */,
-				FBC41C012A6F77570076FAD3 /* drinks.swift */,
-				FBC41C032A6F7BC30076FAD3 /* beers.swift */,
+				FB463C412A71F7CA00627D09 /* beers.swift */,
+				FB463C402A71F7CA00627D09 /* drinks.swift */,
+				FB463C422A71F7CA00627D09 /* Frozens.swift */,
+				FB463C462A71F99500627D09 /* cart.swift */,
 			);
 			path = kiosk_teamProject;
 			sourceTree = "<group>";
@@ -88,11 +85,8 @@
 		FB01E4F32A6E527F002956FD /* model */ = {
 			isa = PBXGroup;
 			children = (
-				FB01E4F12A6E520C002956FD /* ShackBurger.swift */,
+				FB01E4F12A6E520C002956FD /* Goods.swift */,
 				FB01E4F42A6E5559002956FD /* Menu.swift */,
-				FBC41BF92A6F726D0076FAD3 /* Frozen.swift */,
-				FBC41BFB2A6F73800076FAD3 /* Drink.swift */,
-				FBC41BFD2A6F738A0076FAD3 /* Beer.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -155,16 +149,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB01E4F22A6E520C002956FD /* ShackBurger.swift in Sources */,
+				FB463C452A71F7CA00627D09 /* Frozens.swift in Sources */,
+				FB01E4F22A6E520C002956FD /* Goods.swift in Sources */,
+				FB463C442A71F7CA00627D09 /* beers.swift in Sources */,
 				FB01E4F02A6E4E3A002956FD /* burgers.swift in Sources */,
-				FBC41BFA2A6F726D0076FAD3 /* Frozen.swift in Sources */,
+				FB463C432A71F7CA00627D09 /* drinks.swift in Sources */,
 				FB01E4F52A6E5559002956FD /* Menu.swift in Sources */,
-				FBC41BFC2A6F73800076FAD3 /* Drink.swift in Sources */,
-				FBC41BFE2A6F738A0076FAD3 /* Beer.swift in Sources */,
 				FB01E4E92A6E0DE4002956FD /* main.swift in Sources */,
-				FBC41C022A6F77570076FAD3 /* drinks.swift in Sources */,
-				FBC41C002A6F74780076FAD3 /* Frozens.swift in Sources */,
-				FBC41C042A6F7BC30076FAD3 /* beers.swift in Sources */,
+				FB463C472A71F99500627D09 /* cart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

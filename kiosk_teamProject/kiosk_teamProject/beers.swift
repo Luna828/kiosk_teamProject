@@ -2,17 +2,17 @@ import Foundation
 
 struct Beers {
     
-    let menuList: [Beer] = [
-        Beer(name: "ShackMeister Ale", price: 6.8, content: "랜드엔폴트에서 특별히 양조한 맥주"),
-        Beer(name: "Slow IPA", price: 6.8, content: "The Hard and Malt"),
-        Beer(name: "Gorillager", price: 6.8, content: "Gorilla brewling"),
+    let menuList: [Goods] = [
+        Goods(name: "ShackMeister Ale", price: 6.8, content: "랜드엔폴트에서 특별히 양조한 맥주"),
+        Goods(name: "Slow IPA", price: 6.8, content: "The Hard and Malt"),
+        Goods(name: "Gorillager", price: 6.8, content: "Gorilla brewling"),
     ]
     
     func showBeerMenu(){
         print("[ BEER MENU ]")
         for (index, menu) in menuList.enumerated() {
             let paddedName = menu.name.padding(toLength: 17, withPad: " ", startingAt: 0)
-            print("\(index + 1). \(paddedName)| \(menu.content)")
+            print("\(index + 1). \(paddedName)| W\(menu.price) |  \(menu.content)")
         }
         print("0. 뒤로가기")
         print("---------------------------------------------------")

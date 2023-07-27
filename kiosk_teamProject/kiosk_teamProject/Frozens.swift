@@ -2,12 +2,12 @@ import Foundation
 
 struct Frozens {
     
-    let menuList: [FrozenCustard] = [
-        FrozenCustard(name: "Floats", price: 5.9, content: "부드러운 바닐라 커스터드와 탄산 플로트"),
-        FrozenCustard(name: "SmokCup & Cones SingleeShack", price: 4.9, content: "부드럽고 쫀득한 바닐라, 초코 커스터드"),
-        FrozenCustard(name: "Cup & Cones Double", price: 5.9, content: "부드럽고 쫀득한 바닐라, 초코 커스터드"),
-        FrozenCustard(name: "Featured Shakes", price: 6.5, content: "쿠키 & 크림 쉐이크, 바닐라/초콜렛/딸기"),
-        FrozenCustard(name: "Shakes", price: 5.9, content: "솔티드 카라멜, 피넛버터, 커피")
+    let menuList: [Goods] = [
+        Goods(name: "Floats", price: 5.9, content: "부드러운 바닐라 커스터드와 탄산 플로트"),
+        Goods(name: "SmokCup & Cones SingleeShack", price: 4.9, content: "부드럽고 쫀득한 바닐라, 초코 커스터드"),
+        Goods(name: "Cup & Cones Double", price: 5.9, content: "부드럽고 쫀득한 바닐라, 초코 커스터드"),
+        Goods(name: "Featured Shakes", price: 6.5, content: "쿠키 & 크림 쉐이크, 바닐라/초콜렛/딸기"),
+        Goods(name: "Shakes", price: 5.9, content: "솔티드 카라멜, 피넛버터, 커피")
     ]
     
     func showFrozenMenu(){
@@ -15,7 +15,7 @@ struct Frozens {
         print("[ Frozen Custard MENU ]")
         for (index, menu) in menuList.enumerated() {
             let paddedName = menu.name.padding(toLength: 30, withPad: " ", startingAt: 0)
-            print("\(index + 1). \(paddedName)| \(menu.content)")
+            print("\(index + 1). \(paddedName)| W\(menu.price) |  \(menu.content)")
         }
         print("0. 뒤로가기")
         print("---------------------------------------------------")
