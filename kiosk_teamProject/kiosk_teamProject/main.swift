@@ -1,5 +1,6 @@
 import Foundation
 
+<<<<<<< Updated upstream
 class Kiosk {
     
     let menuList: [Menu] = [
@@ -13,6 +14,7 @@ class Kiosk {
     func shakeShack() {
        
         print("[ SHAKESHACK MENU ]")
+=======
 var accountList = [Payments]()
 var account = newAccount(name: "Daisy", balance: Double.random(in: 5000...1000000))
 
@@ -39,6 +41,7 @@ func showTitle() {
 
     [ SHAKESHACK MENU ]
     """)
+>>>>>>> Stashed changes
         for (index, menu) in menuList.enumerated() {
             // toLength: 새로운 문자열의 길이를 15로 설정
             // withPad: "" 추가할 공백 문자를 지정 '|' 사이의 간격을 맞추도록 지정
@@ -78,6 +81,8 @@ func showTitle() {
         }
     }
 }
+<<<<<<< Updated upstream
+=======
 func addItem(_ item: Goods) { // kiosk 인자 추가
     print("\(item.name)을 장바구니에 추가하시겠습니까?")
     print("1. 확인           2.취소")
@@ -128,5 +133,6 @@ func showCart() {
     }
     
 }
+>>>>>>> Stashed changes
 
 Kiosk().shakeShack()
