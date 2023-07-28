@@ -29,6 +29,7 @@ struct Burgers {
             
             switch num {
             case 1...menuList.count:
+                // 인덱스이기 때문에 번호 - 1
                 let selectedItem = menuList[num - 1]
                 addItem(selectedItem)
                 Running = false
