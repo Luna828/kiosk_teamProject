@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7AD600C2A735FC200833B5D /* Payments.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AD600B2A735FC200833B5D /* Payments.swift */; };
 		FB01E4E92A6E0DE4002956FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01E4E82A6E0DE4002956FD /* main.swift */; };
 		FB01E4F02A6E4E3A002956FD /* burgers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01E4EF2A6E4E3A002956FD /* burgers.swift */; };
 		FB01E4F22A6E520C002956FD /* ShackBurger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01E4F12A6E520C002956FD /* ShackBurger.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E7AD600B2A735FC200833B5D /* Payments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payments.swift; sourceTree = "<group>"; };
 		FB01E4E52A6E0DE4002956FD /* kiosk_teamProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kiosk_teamProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB01E4E82A6E0DE4002956FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FB01E4EF2A6E4E3A002956FD /* burgers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burgers.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				FBC41BF92A6F726D0076FAD3 /* Frozen.swift */,
 				FBC41BFB2A6F73800076FAD3 /* Drink.swift */,
 				FBC41BFD2A6F738A0076FAD3 /* Beer.swift */,
+				E7AD600B2A735FC200833B5D /* Payments.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -156,6 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB01E4F22A6E520C002956FD /* ShackBurger.swift in Sources */,
+				FB463C452A71F7CA00627D09 /* Frozens.swift in Sources */,
+				FB01E4F22A6E520C002956FD /* Goods.swift in Sources */,
+				E7AD600C2A735FC200833B5D /* Payments.swift in Sources */,
+				FB463C442A71F7CA00627D09 /* beers.swift in Sources */,
 				FB01E4F02A6E4E3A002956FD /* burgers.swift in Sources */,
 				FBC41BFA2A6F726D0076FAD3 /* Frozen.swift in Sources */,
 				FB01E4F52A6E5559002956FD /* Menu.swift in Sources */,
