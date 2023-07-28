@@ -8,3 +8,10 @@ class Beer: Menu {
         super.init(name: name, content: content)
     }
 }
+
+
+struct Beer1 {
+    let name: String
+    let price: Double
+    let content : String
+}
