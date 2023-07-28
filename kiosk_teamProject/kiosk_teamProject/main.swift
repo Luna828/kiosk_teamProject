@@ -66,6 +66,7 @@ func shakeShack() {
 func addItem(_ item: Goods) { // kiosk 인자 추가
     print("\(item.name)을 장바구니에 추가하시겠습니까?")
     print("1. 확인           2.취소")
+    print("---------------------------------------------------")
     var isRunning = true
     while isRunning {
         guard let numStr = readLine(),
@@ -77,7 +78,10 @@ func addItem(_ item: Goods) { // kiosk 인자 추가
         switch num {
         case 1 :
             cartList.append(item)
+            print("---------------------------------------------------")
             print("\(item.name)을 장바구니에 추가하였습니다.")
+            print("메뉴판으로 이동합니다.")
+            print("---------------------------------------------------")
             isRunning = false
         case 2 :
             isRunning = false
