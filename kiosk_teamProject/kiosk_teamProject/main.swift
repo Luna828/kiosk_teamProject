@@ -9,7 +9,25 @@ let menuList: [Menu] = [
     Menu(name: "Cart", content: ""),
     Menu(name: "Exit", content: "프로그램 종료")
 ]
+var accountList = [Payments]()
+var account = newAccount(name: "gagyeom", balance: Double.random(in: 100...1000))
+
+func newAccount(name: String, balance: Double) -> Payments {
+    let account = Payments(accountName: name, Balance: balance)
+    accountList.append(account)
+    return account
+}
+var waitingTime = 0
+DispatchQueue.global().async {
+    while true{
+        sleep(5)
+        print("\n현재 주문 대기 수: \(account.count)")
+        print("\n예상 대기 시간: \(waitingTime)")
+    }
+}
+
 var cartList = [Goods]()
+
 func showTitle() {
     print("""
     "SHAKESHACK BURGER 에 오신걸 환영합니다."
@@ -54,6 +72,7 @@ func shakeShack() {
             showTitle()
         case 5 :
             showCart()
+            showTitle()
         case 6 :
             print("프로그램 종료")
             exit(0)
@@ -92,6 +111,7 @@ func addItem(_ item: Goods) { // kiosk 인자 추가
     }
 }
 func showCart() {
+    var totalPrice : Double = 0
     if cartList.isEmpty {
         print("카트의 장바구니가 비어 있습니다.")
     } else {
@@ -99,8 +119,22 @@ func showCart() {
         for (index, item) in cartList.enumerated() {
             let paddedName = item.name.padding(toLength: 15, withPad: " ", startingAt: 0)
             print("\(index + 1). \(paddedName)| W\(item.price) | \(item.content)")
+            totalPrice += item.price
         }
         print("---------------------------------------------------")
+        print("총 금액 : \(totalPrice)")
+        account.printBalance()
+        print("---------------------------------------------------")
+        print("결제하시겠습니까?")
+        print("1. 네   2. 아니오")
+        let input = readLine()
+        if input == "1" {
+            print(account.withdraw(value: totalPrice))
+            waitingTime = account.count * 5
+            cartList.removeAll()
+        } else {
+            print("결제 하지 않겠습니다.")
+        }
     }
 }
 
