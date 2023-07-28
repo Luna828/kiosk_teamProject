@@ -130,8 +130,9 @@ func showCart() {
         let input = readLine()
         if input == "1" {
             print(account.withdraw(value: totalPrice))
-            waitingTime = account.count * 5
+            waitingTime = (account.count + cartList.count) * 3
             cartList.removeAll()
+            sleep(3)
         } else {
             print("결제 하지 않겠습니다.")
         }
